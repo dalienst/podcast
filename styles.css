@@ -465,3 +465,12 @@ footer p {
 .episode-button:hover {
   color: var(--clr-red);
 }
+
+.episode-head {
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: var(--ff-primary);
+  color: var(--clr-white);
+}
