@@ -391,11 +391,11 @@ footer p {
 }
 
 .episode-card {
-  box-shadow: 0 4px 8px var(--clr-red);
+  /* box-shadow: 0 4px 8px var(--clr-red); */
   text-align: center;
   background-color: var(--clr-black);
-  height: auto;
-  border-radius: 5px;
+  height: 232px;
+  border-radius: 12px;
 }
 
 /* @media screen and (max-width: 992px){
@@ -407,18 +407,18 @@ footer p {
 
 .episode-title {
   text-align: center;
-  padding: 20px;
-  font-size: large;
-  font-weight: bolder;
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
   font-family: var(--ff-primary);
   color: var(--clr-red);
 }
 
 .episode-title a {
   text-align: center;
-  padding: 20px;
-  font-size: large;
-  font-weight: bolder;
+  padding: 10px;
+  font-size: medium;
+  font-weight: bold;
   font-family: var(--ff-primary);
   color: var(--clr-red);
 }
@@ -440,12 +440,13 @@ footer p {
 .episode-description {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 15px;
+  padding-bottom: 10px;
+  font-size: 13px;
   color: var(--clr-white);
   font-family: var(--ff-secondary);
 }
 
-.episode-controls {
+/* .episode-controls {
   width: 50%;
   margin: 0 auto;
   padding: 5px;
@@ -464,7 +465,7 @@ footer p {
 
 .episode-button:hover {
   color: var(--clr-red);
-}
+} */
 
 .episode-head {
   text-align: center;
